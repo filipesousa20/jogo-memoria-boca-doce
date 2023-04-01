@@ -34,6 +34,7 @@ const Board: React.FC = () => {
       "eunice.jpg",
       "fabio.jpg",
       "fernanda.jpg",
+      "fernanda2.jpg",
       "filipe.jpg",
       "gordon.jpg",
       "guilherme.jpg",
@@ -52,8 +53,7 @@ const Board: React.FC = () => {
       "silvia.jpg",
       "susi.jpg",
       "tiago.jpg",
-      "victor.jpg",
-      "rick.jpg"
+      "victor.jpg"
     ];
     images = [...images, ...images];
     images = images.map((i) => urlPath + "/images/" + i);
